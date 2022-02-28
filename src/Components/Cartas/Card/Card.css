@@ -1,0 +1,50 @@
+.logos-veggie{
+    max-width: 3rem;
+}
+.gluten-free{
+    width: 5em;
+}
+
+.food-img{
+    border-radius: 15px;
+}
+
+
+.card{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-color: transparent;
+    border-radius: 8px;
+    background-color: var(--blanco);
+    box-shadow: rgb(0 0 0 / 50%) 5px 5px 20px;
+    cursor: pointer;
+}
+
+.title{
+    color: var(--verdeOscuro);
+    font-weight: bold;
+}
+
+p{
+    margin: 0px;
+    color: rgb(128, 128, 128);
+}
+
+@media (min-width: 768px){
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 375px){
+    p{
+        font-size: 13px;
+    }
+    h6{
+        font-size: 15px;
+    }
+    .logos-veggie{
+        width: 2rem;
+    }
+}

@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+:root{
+  --verdeOscuro: #32724c;  
+  --blanco: #d4ecdd ;
+  --verdeClaro: #76B536  ;
+  --negro: #000000;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,3 +43,13 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+
+
+
+/* #184A2C  #EBFDF2 #76B536  #00000*/

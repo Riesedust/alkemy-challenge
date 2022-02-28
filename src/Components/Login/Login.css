@@ -1,0 +1,73 @@
+h1{
+    color: var(--verdeOscuro);
+}
+
+.login-body{
+    background-color: rgb(118, 181, 54, 0.5);
+}
+
+.background-image{
+    position: relative;
+    padding-top: 9rem;
+    padding-bottom: 11rem;
+}
+
+.background-image::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url('../../images/food-login.jpg');
+    background-size: 100%;
+    opacity: 0.4; 
+}
+
+.login-box{
+    position: relative;
+    height: 19rem;
+    max-width: 30rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.input-container{
+    margin: 0.5rem;
+}
+
+.form-control{
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: var(--verdeOscuro);
+    background-color: var(--blanco);
+}
+
+.form-control:focus{
+    background-color: var(--blanco);
+    box-shadow: 0 0 0 0.15rem var(--verdeOscuro);
+}
+
+.form-control::placeholder{
+    color: var(--verdeOscuro);
+}
+
+.login-button{
+    color: var(--blanco);
+    background-color: var(--verdeOscuro);
+    border-radius: 20px;
+    width: 75%;
+}
+.login-button:hover{
+    color: var(--blanco);
+}
+
+.error{
+    margin: 3px;
+    color: rgb(240, 15, 15);
+}

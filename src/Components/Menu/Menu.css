@@ -1,0 +1,42 @@
+.food-title{
+    color: white;
+}
+
+.card-img{
+    border-radius: 15px;
+}
+
+.boton-modal{
+    margin-top: 2rem;
+    background-color: var(--verdeOscuro);
+}
+
+.menu-card{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-color: transparent;
+    border-radius: 8px;
+    background-color: var(--verdeClaro);
+    box-shadow: rgb(0 0 0 / 50%) 5px 5px 20px;
+    position: relative; 
+}
+
+.btn-danger{
+    width: 40px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (min-width: 768px){
+    .menu-card{
+        max-width: 30rem;
+        justify-content: center;
+    }
+}

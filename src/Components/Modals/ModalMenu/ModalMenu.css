@@ -1,0 +1,27 @@
+.infomenu-container{
+    background-color: var(--verdeClaro);
+    border-radius: 15px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.modalmenubody{
+    width: 100%;
+    background-color: var(--verdeClaro);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 20px;
+}
+
+.tumenu{
+    color: black;
+    position: absolute;
+}
+
+@media (min-width: 768px) {
+    .info-row{
+        width: 570px;
+    }
+}
